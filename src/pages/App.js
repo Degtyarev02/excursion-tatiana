@@ -5,12 +5,13 @@ import { BrowserRouter, Route, Routes } from "react-router";
 import ProfileSection from "../components/ProfileSection";
 import Header from "../components/Header";
 import Excursion from "./Excursion";
+import Footer from "../components/Footer";
 
 // Тема создаётся ВНЕ компонента
 const theme = createTheme({
 	typography: {
-    fontFamily: "Roboto serif, serif",
-  },
+		fontFamily: "Roboto serif, serif",
+	},
 	palette: {
 		primary: {
 			main: "#073b00ff", // Теплый коричневый (как старинная бумага)
@@ -49,16 +50,17 @@ function ResponsiveBox() {
 		<Box
 			sx={{
 				width: "100%",
-				marginTop: "0"
+				marginTop: "0",
 			}}
 		>
-			<Header/>
+			<Header />
 			<BrowserRouter>
 				<Routes>
 					<Route index element={<ProfileSection />} />
 					<Route path="/:excursionId" element={<Excursion />} />
 				</Routes>
 			</BrowserRouter>
+			<Footer />
 		</Box>
 	);
 }

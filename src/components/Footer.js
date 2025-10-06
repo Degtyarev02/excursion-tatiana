@@ -12,6 +12,7 @@ const Footer = () => {
 			sx={{
 				py: 2,
 				px: 1,
+				marginTop: "30px",
 				textAlign: "center",
 				borderTop: "3px solid",
 				borderColor: theme.palette.secondary.main,

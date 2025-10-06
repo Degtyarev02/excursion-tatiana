@@ -56,9 +56,6 @@ const ProfileSection = () => {
 			<Grid size={{ xs: 12 }}>
 				<ReviewCarousel list={reviews} />
 			</Grid>
-			<Grid size={{ xs: 12 }}>
-				<Footer />
-			</Grid>
 		</Grid>
 	);
 };
