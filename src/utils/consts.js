@@ -258,9 +258,6 @@ export const excursions = [
 			{
 				text: "excursions.2.what_to_expect.7",
 			},
-			{
-				text: "excursions.2.what_to_expect.8",
-			},
 		],
 		what_you_learn: [
 			{
@@ -363,6 +360,9 @@ export const excursions = [
 			},
 			{
 				text: "excursions.3.what_you_learn.7",
+			},
+			{
+				text: "excursions.3.what_you_learn.8",
 			},
 		],
 	},

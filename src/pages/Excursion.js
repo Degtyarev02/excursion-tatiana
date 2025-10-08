@@ -39,6 +39,15 @@ const Excursion = () => {
 		objectFit: "cover",
 	});
 
+	const Circle = styled("div")({
+		width: "8px",
+		display: "inline-flex",
+		marginRight: "8px",
+		height: "8px",
+		borderRadius: "50%",
+		backgroundColor: theme.palette.primary.main,
+	});
+
 	const { t } = useTranslation();
 
 	const handleChange = (event, newValue) => {
@@ -184,7 +193,8 @@ const Excursion = () => {
 									fontSize: matches ? "16px" : "14px",
 								}}
 							>
-								❓{t(item.text)}
+								<Circle />
+								{t(item.text)}
 							</Typography>
 						))}
 					</Box>
@@ -198,7 +208,8 @@ const Excursion = () => {
 									fontSize: matches ? "16px" : "14px",
 								}}
 							>
-								📍{t(item.text)}
+								<Circle />
+								{t(item.text)}
 							</Typography>
 						))}
 					</Box>
@@ -212,7 +223,8 @@ const Excursion = () => {
 									fontSize: matches ? "16px" : "14px",
 								}}
 							>
-								❗️{t(item.text)}
+								<Circle />
+								{t(item.text)}
 							</Typography>
 						))}
 					</Box>
