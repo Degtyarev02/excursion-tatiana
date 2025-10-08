@@ -6,6 +6,7 @@ import { useState } from "react";
 import { ReactComponent as PhoneIcon } from "..//icons/phone.svg";
 import { ReactComponent as TgIcon } from "..//icons/tg.svg";
 import { ReactComponent as TripsterIcon } from "..//icons/tripster.svg";
+import { ReactComponent as WAIcon } from "..//icons/whatsapp.svg";
 
 const ContactItems = styled("div")({
 	display: "flex",
@@ -36,6 +37,7 @@ const ContactIcons = () => {
 		tg: false,
 		tripster: false,
 		phone: false,
+		wa: false,
 	});
 
 	const handleExpandClick = (key) => {
@@ -128,6 +130,34 @@ const ContactIcons = () => {
 					sx={{ backgroundColor: "secondary.main" }}
 				>
 					<PhoneIcon style={{ width: 24, height: 24 }} />
+				</IconButton>
+			</ContactItem>
+
+			<ContactItem>
+				<Collapse
+					orientation="horizontal"
+					in={expanded.wa}
+					timeout="auto"
+					unmountOnExit
+				>
+					<ContactText
+						href="https://wa.me/79268362858"
+						target="_blank"
+						rel="noopener noreferrer"
+						sx={{
+							textDecoration: "none",
+							"&:hover": { textDecoration: "underline" },
+						}}
+					>
+						WhatsApp
+					</ContactText>
+				</Collapse>
+				<IconButton
+					aria-label="wa"
+					onClick={() => handleExpandClick("wa")}
+					sx={{ backgroundColor: "secondary.main" }}
+				>
+					<WAIcon style={{ width: 24, height: 24 }} />
 				</IconButton>
 			</ContactItem>
 		</ContactItems>

@@ -65,11 +65,6 @@ export const portfolio = [
 		color: "#F8F4E9",
 	},
 	{
-		img: "/excursions/photo44.jpg",
-		head: "portfolio.items.4.title",
-		color: "#F8F4E9",
-	},
-	{
 		img: "/excursions/photo51.jpg",
 		head: "portfolio.items.5.title",
 		color: "#F8F4E9",
@@ -168,6 +163,27 @@ export const excursions = [
 			{
 				text: "excursions.1.what_to_expect.4",
 			},
+			{
+				text: "excursions.1.what_to_expect.5",
+			},
+			{
+				text: "excursions.1.what_to_expect.6",
+			},
+			{
+				text: "excursions.1.what_to_expect.7",
+			},
+			{
+				text: "excursions.1.what_to_expect.8",
+			},
+			{
+				text: "excursions.1.what_to_expect.9",
+			},
+			{
+				text: "excursions.1.what_to_expect.10",
+			},
+			{
+				text: "excursions.1.what_to_expect.11",
+			},
 		],
 		what_you_learn: [
 			{
@@ -181,6 +197,12 @@ export const excursions = [
 			},
 			{
 				text: "excursions.1.what_you_learn.4",
+			},
+			{
+				text: "excursions.1.what_you_learn.5",
+			},
+			{
+				text: "excursions.1.what_you_learn.6",
 			},
 		],
 	},
@@ -210,6 +232,9 @@ export const excursions = [
 			{
 				text: "excursions.2.details.5",
 			},
+			{
+				text: "excursions.2.details.6",
+			},
 		],
 		what_to_expect: [
 			{
@@ -232,6 +257,9 @@ export const excursions = [
 			},
 			{
 				text: "excursions.2.what_to_expect.7",
+			},
+			{
+				text: "excursions.2.what_to_expect.8",
 			},
 		],
 		what_you_learn: [
@@ -278,6 +306,9 @@ export const excursions = [
 			{
 				text: "excursions.3.details.4",
 			},
+			{
+				text: "excursions.3.details.5",
+			},
 		],
 		what_to_expect: [
 			{
@@ -306,6 +337,9 @@ export const excursions = [
 			},
 			{
 				text: "excursions.3.what_to_expect.9",
+			},
+			{
+				text: "excursions.3.what_to_expect.10",
 			},
 		],
 		what_you_learn: [
@@ -358,6 +392,9 @@ export const excursions = [
 			{
 				text: "excursions.4.details.5",
 			},
+			{
+				text: "excursions.4.details.6",
+			},
 		],
 		what_to_expect: [
 			{
@@ -372,6 +409,12 @@ export const excursions = [
 			{
 				text: "excursions.4.what_to_expect.4",
 			},
+			{
+				text: "excursions.4.what_to_expect.5",
+			},
+			{
+				text: "excursions.4.what_to_expect.6",
+			},
 		],
 		what_you_learn: [
 			{
@@ -385,9 +428,6 @@ export const excursions = [
 			},
 			{
 				text: "excursions.4.what_you_learn.4",
-			},
-			{
-				text: "excursions.4.what_you_learn.5",
 			},
 		],
 	},
@@ -413,6 +453,9 @@ export const excursions = [
 			},
 			{
 				text: "excursions.5.details.4",
+			},
+			{
+				text: "excursions.5.details.5",
 			},
 		],
 		what_to_expect: [

@@ -43,7 +43,12 @@ const ProfileInfo = () => {
 						<Image src={"profile.jpg"} />
 					</ImageContainer>
 				</Grid>
-				<Grid container alignContent={"space-around"} size={{ xs: 12, lg: 9 }} spacing={2}>
+				<Grid
+					container
+					alignContent={"space-around"}
+					size={{ xs: 12, lg: 9 }}
+					spacing={2}
+				>
 					<Grid size={{ xs: 12 }}>
 						<Typography variant={matches ? "h4" : "h5"}>
 							{t("profile.greeting")}
@@ -52,15 +57,26 @@ const ProfileInfo = () => {
 					<Grid size={{ xs: 12 }} sx={{ textAlign: "justify" }}>
 						<Typography
 							variant="body"
-							sx={{ fontSize: matches ? "18px" : "16px" }}
-						>
-							{t("profile.description1")}
-						</Typography>
+							sx={{
+								fontSize: matches ? "18px" : "16px",
+								"& a": {
+									color: "#ffffffff", // Синий цвет
+									textDecoration: "underline",
+									"&:hover": {
+										color: "#a8a8a8ff", // Темнее при наведении
+									},
+								},
+							}}
+							dangerouslySetInnerHTML={{
+								__html: t("profile.description1").replace(
+									/<a /g,
+									'<a target="_blank" rel="noopener noreferrer" '
+								),
+							}}
+						/>
 					</Grid>
 					<Grid>
-						<Typography variant={"h6"}>
-							{t("profile.contact_title")}
-						</Typography>
+						<Typography variant={"h6"}>{t("profile.contact_title")}</Typography>
 						<ContactIcons />
 					</Grid>
 				</Grid>

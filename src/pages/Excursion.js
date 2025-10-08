@@ -59,7 +59,11 @@ const Excursion = () => {
 
 	return (
 		<Grid container spacing={2}>
-			<Grid item size={{ xs: 12, md: 7 }} sx={{ padding: matches ? "30px 50px" : "0" }}>
+			<Grid
+				item
+				size={{ xs: 12, md: 7 }}
+				sx={{ padding: matches ? "30px 50px" : "0" }}
+			>
 				<Image src={info.img} />
 			</Grid>
 			<Grid
@@ -98,9 +102,10 @@ const Excursion = () => {
 					<Typography
 						sx={{ fontWeight: "300", fontSize: "14px", lineHeight: 1.3 }}
 						color={theme.palette.text.thirdry}
-					>
-						{t("excursions.price")} {t(info.price)}
-					</Typography>
+						dangerouslySetInnerHTML={{
+							__html: `${t("excursions.price")} ${t(info.price)}`,
+						}}
+					/>
 
 					<Typography
 						variant="body2"
@@ -141,7 +146,7 @@ const Excursion = () => {
 				</Grid>
 			</Grid>
 
-			<Grid item size={{ xs: 12 }} >
+			<Grid item size={{ xs: 12 }}>
 				<Tabs
 					value={value}
 					onChange={handleChange}
