@@ -30,6 +30,11 @@ export const portfolio = [
 		color: "#F8F4E9",
 	},
 	{
+		img: "/excursions/photo24.jpg",
+		head: "portfolio.items.2.title",
+		color: "#F8F4E9",
+	},
+	{
 		img: "/excursions/photo31.jpg",
 		head: "portfolio.items.3.title",
 		color: "#F8F4E9",
