@@ -22,7 +22,7 @@ export const portfolio = [
 	{
 		img: "/excursions/photo22.jpg",
 		head: "portfolio.items.2.title",
-		color: "#F8F4E9",
+		color: "#3a3a3aff",
 	},
 	{
 		img: "/excursions/photo23.jpg",
@@ -65,6 +65,11 @@ export const portfolio = [
 		color: "#F8F4E9",
 	},
 	{
+		img: "/excursions/photo44.jpg",
+		head: "portfolio.items.4.title",
+		color: "#4d4b48ff",
+	},
+	{
 		img: "/excursions/photo51.jpg",
 		head: "portfolio.items.5.title",
 		color: "#F8F4E9",
@@ -81,6 +86,11 @@ export const portfolio = [
 	},
 	{
 		img: "/excursions/photo54.jpg",
+		head: "portfolio.items.5.title",
+		color: "#F8F4E9",
+	},
+	{
+		img: "/excursions/photo55.jpg",
 		head: "portfolio.items.5.title",
 		color: "#F8F4E9",
 	},
