@@ -53,7 +53,7 @@ const Portfolio = ({ list }) => {
 						<Image
 							src={item.img}
 							sx={{
-								height: matches ? "600px" : "400px",
+								height: matches ? "600px" : "300px",
 							}}
 						/>
 						<Box sx={{ position: "absolute", top: "10px", left: "20px" }}>
