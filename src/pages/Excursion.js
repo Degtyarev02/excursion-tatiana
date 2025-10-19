@@ -144,6 +144,8 @@ const Excursion = () => {
 				</Grid>
 				<Grid container item size={{ xs: 12 }} alignItems={"end"}>
 					<Button
+						type="a"
+						target="_blank"
 						href={info.url}
 						variant="contained"
 						disableElevation
