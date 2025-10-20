@@ -139,6 +139,21 @@ export const portfolio = [
 		head: "portfolio.items.7.title",
 		color: "#F8F4E9",
 	},
+	{
+		img: "/excursions/photo81.jpg",
+		head: "portfolio.items.8.title",
+		color: "#F8F4E9",
+	},
+	{
+		img: "/excursions/photo82.jpg",
+		head: "portfolio.items.8.title",
+		color: "#F8F4E9",
+	},
+	{
+		img: "/excursions/photo83.jpg",
+		head: "portfolio.items.8.title",
+		color: "#F8F4E9",
+	},
 ];
 
 export const reviews = [
@@ -648,7 +663,8 @@ export const excursions = [
 				text: "excursions.6.what_you_learn.9",
 			},
 		],
-	},{
+	},
+	{
 		id: "6",
 		img: "/excursions/kolomenskoye.jpg",
 		name: "excursions.7.title",
@@ -719,6 +735,92 @@ export const excursions = [
 			},
 			{
 				text: "excursions.7.what_you_learn.9",
+			},
+		],
+	},
+	{
+		id: "7",
+		img: "/excursions/kolomenskoye2.jpg",
+		name: "excursions.8.title",
+		age: "excursions.8.age",
+		time: "excursions.8.time",
+		route: "excursions.8.route",
+		desc: "excursions.8.description",
+		price: "excursions.8.price",
+		url: "https://t.me/Tatiana_Prokazova",
+		details: [
+			{
+				text: "excursions.8.details.1",
+			},
+			{
+				text: "excursions.8.details.2",
+			},
+			{
+				text: "excursions.8.details.3",
+			},
+			{
+				text: "excursions.8.details.4",
+			},
+			{
+				text: "excursions.8.details.5",
+			},
+		],
+		what_to_expect: [
+			{
+				text: "excursions.8.what_to_expect.1",
+			},
+			{
+				text: "excursions.8.what_to_expect.2",
+			},
+			{
+				text: "excursions.8.what_to_expect.3",
+			},
+			{
+				text: "excursions.8.what_to_expect.4",
+			},
+			{
+				text: "excursions.8.what_to_expect.5",
+			},
+			{
+				text: "excursions.8.what_to_expect.6",
+			},
+			{
+				text: "excursions.8.what_to_expect.7",
+			},
+			{
+				text: "excursions.8.what_to_expect.8",
+			},
+			{
+				text: "excursions.8.what_to_expect.9",
+			},
+			{
+				text: "excursions.8.what_to_expect.10",
+			},
+			{
+				text: "excursions.8.what_to_expect.11",
+			},
+		],
+		what_you_learn: [
+			{
+				text: "excursions.8.what_you_learn.1",
+			},
+			{
+				text: "excursions.8.what_you_learn.2",
+			},
+			{
+				text: "excursions.8.what_you_learn.3",
+			},
+			{
+				text: "excursions.8.what_you_learn.4",
+			},
+			{
+				text: "excursions.8.what_you_learn.5",
+			},
+			{
+				text: "excursions.8.what_you_learn.6",
+			},
+			{
+				text: "excursions.8.what_you_learn.7",
 			},
 		],
 	},
