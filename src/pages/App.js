@@ -51,6 +51,9 @@ function ResponsiveBox() {
 			sx={{
 				width: "100%",
 				marginTop: "0",
+				minHeight: "100vh",
+				display: "flex",
+				flexDirection: "column",
 			}}
 		>
 			<Header />

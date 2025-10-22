@@ -67,11 +67,13 @@ const Excursion = () => {
 		: t(info.desc);
 
 	return (
-		<Grid container spacing={2}>
+		<Grid container spacing={2} marginBottom={"30px"}>
 			<Grid
 				item
 				size={{ xs: 12, md: 7 }}
-				sx={{ padding: matches ? "30px 50px" : "0" }}
+				sx={{
+					padding: matches ? "30px 50px" : "0"
+				}}
 			>
 				<Image src={info.img} />
 			</Grid>

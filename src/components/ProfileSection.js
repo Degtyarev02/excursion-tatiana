@@ -31,6 +31,7 @@ const ProfileSection = () => {
 			container
 			spacing={matches ? 4 : 2}
 			sx={{
+				mb: "30px",
 				justifyContent: "center",
 				alignItems: "center",
 			}}
