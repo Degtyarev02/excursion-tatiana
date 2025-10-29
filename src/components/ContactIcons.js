@@ -57,7 +57,7 @@ const ContactIcons = () => {
 					unmountOnExit
 				>
 					<ContactText
-						href="https://t.me/Tatiana_Prokazova"
+						href="https://tglink.ru/Tatiana_Prokazova"
 						target="_blank"
 						rel="noopener noreferrer"
 						sx={{

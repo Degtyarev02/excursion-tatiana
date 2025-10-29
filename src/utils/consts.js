@@ -220,7 +220,7 @@ export const excursions = [
 		route: "excursions.1.route",
 		desc: "excursions.1.description",
 		price: "excursions.1.price",
-		url: "https://t.me/Tatiana_Prokazova",
+		url: "https://tglink.ru/Tatiana_Prokazova",
 		details: [
 			{
 				text: "excursions.1.details.1",
@@ -300,7 +300,7 @@ export const excursions = [
 		route: "excursions.2.route",
 		desc: "excursions.2.description",
 		price: "excursions.2.price",
-		url: "https://t.me/Tatiana_Prokazova",
+		url: "https://tglink.ru/Tatiana_Prokazova",
 		details: [
 			{
 				text: "excursions.2.details.1",
@@ -377,7 +377,7 @@ export const excursions = [
 		route: "excursions.3.route",
 		desc: "excursions.3.description",
 		price: "excursions.3.price",
-		url: "https://t.me/Tatiana_Prokazova",
+		url: "https://tglink.ru/Tatiana_Prokazova",
 		details: [
 			{
 				text: "excursions.3.details.1",
@@ -463,7 +463,7 @@ export const excursions = [
 		route: "excursions.4.route",
 		desc: "excursions.4.description",
 		price: "excursions.4.price",
-		url: "https://t.me/Tatiana_Prokazova",
+		url: "https://tglink.ru/Tatiana_Prokazova",
 		details: [
 			{
 				text: "excursions.4.details.1",
@@ -528,7 +528,7 @@ export const excursions = [
 		route: "excursions.5.route",
 		desc: "excursions.5.description",
 		price: "excursions.5.price",
-		url: "https://t.me/Tatiana_Prokazova",
+		url: "https://tglink.ru/Tatiana_Prokazova",
 		details: [
 			{
 				text: "excursions.5.details.1",
@@ -611,7 +611,7 @@ export const excursions = [
 		route: "excursions.6.route",
 		desc: "excursions.6.description",
 		price: "excursions.6.price",
-		url: "https://t.me/Tatiana_Prokazova",
+		url: "https://tglink.ru/Tatiana_Prokazova",
 		details: [
 			{
 				text: "excursions.6.details.1",
@@ -688,7 +688,7 @@ export const excursions = [
 		route: "excursions.7.route",
 		desc: "excursions.7.description",
 		price: "excursions.7.price",
-		url: "https://t.me/Tatiana_Prokazova",
+		url: "https://tglink.ru/Tatiana_Prokazova",
 		details: [
 			{
 				text: "excursions.7.details.1",
@@ -762,7 +762,7 @@ export const excursions = [
 		route: "excursions.8.route",
 		desc: "excursions.8.description",
 		price: "excursions.8.price",
-		url: "https://t.me/Tatiana_Prokazova",
+		url: "https://tglink.ru/Tatiana_Prokazova",
 		details: [
 			{
 				text: "excursions.8.details.1",
@@ -848,7 +848,7 @@ export const excursions = [
 		route: "excursions.9.route",
 		desc: "excursions.9.description",
 		price: "excursions.9.price",
-		url: "https://t.me/Tatiana_Prokazova",
+		url: "https://tglink.ru/Tatiana_Prokazova",
 		details: [
 			{
 				text: "excursions.9.details.1",
