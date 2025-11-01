@@ -169,6 +169,31 @@ export const portfolio = [
 		head: "portfolio.items.9.title",
 		color: "#F8F4E9",
 	},
+	{
+		img: "/excursions/photo101.jpg",
+		head: "portfolio.items.10.title",
+		color: "#F8F4E9",
+	},
+	{
+		img: "/excursions/photo102.jpg",
+		head: "portfolio.items.10.title",
+		color: "#F8F4E9",
+	},
+	{
+		img: "/excursions/photo103.jpg",
+		head: "portfolio.items.10.title",
+		color: "#F8F4E9",
+	},
+	{
+		img: "/excursions/photo104.jpg",
+		head: "portfolio.items.10.title",
+		color: "#F8F4E9",
+	},
+	{
+		img: "/excursions/photo105.jpg",
+		head: "portfolio.items.10.title",
+		color: "#F8F4E9",
+	},
 ];
 
 export const reviews = [
@@ -922,6 +947,80 @@ export const excursions = [
 			},
 			{
 				text: "excursions.9.what_you_learn.15",
+			},
+		],
+	},
+	{
+		id: "9",
+		img: "/excursions/army_temple.jpg",
+		name: "excursions.10.title",
+		age: "excursions.10.age",
+		time: "excursions.10.time",
+		route: "excursions.10.route",
+		desc: "excursions.10.description",
+		price: "excursions.10.price",
+		url: "https://t.me/Tatiana_Prokazova",
+		details: [
+			{
+				text: "excursions.10.details.1",
+			},
+			{
+				text: "excursions.10.details.2",
+			},
+			{
+				text: "excursions.10.details.3",
+			},
+			{
+				text: "excursions.10.details.4",
+			},
+			{
+				text: "excursions.10.details.5",
+			},
+			{
+				text: "excursions.10.details.6",
+			},
+		],
+		what_to_expect: [
+			{
+				text: "excursions.10.what_to_expect.1",
+			},
+			{
+				text: "excursions.10.what_to_expect.2",
+			},
+			{
+				text: "excursions.10.what_to_expect.3",
+			},
+		],
+		what_you_learn: [
+			{
+				text: "excursions.10.what_you_learn.1",
+			},
+			{
+				text: "excursions.10.what_you_learn.2",
+			},
+			{
+				text: "excursions.10.what_you_learn.3",
+			},
+			{
+				text: "excursions.10.what_you_learn.4",
+			},
+			{
+				text: "excursions.10.what_you_learn.5",
+			},
+			{
+				text: "excursions.10.what_you_learn.6",
+			},
+			{
+				text: "excursions.10.what_you_learn.7",
+			},
+			{
+				text: "excursions.10.what_you_learn.8",
+			},
+			{
+				text: "excursions.10.what_you_learn.9",
+			},
+			{
+				text: "excursions.10.what_you_learn.10",
 			},
 		],
 	},
