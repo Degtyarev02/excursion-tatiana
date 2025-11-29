@@ -194,6 +194,16 @@ export const portfolio = [
 		head: "portfolio.items.10.title",
 		color: "#F8F4E9",
 	},
+	{
+		img: "/excursions/photo111.jpg",
+		head: "portfolio.items.11.title",
+		color: "#223a23ff",
+	},
+	{
+		img: "/excursions/photo112.jpg",
+		head: "portfolio.items.11.title",
+		color: "#F8F4E9",
+	},
 ];
 
 export const reviews = [
@@ -232,6 +242,24 @@ export const reviews = [
 		name: "reviews.6.name",
 		excursion: "reviews.6.excursion",
 		text: "reviews.6.text",
+	},
+	{
+		img: "/users/user.svg",
+		name: "reviews.7.name",
+		excursion: "reviews.7.excursion",
+		text: "reviews.7.text",
+	},
+	{
+		img: "/users/user.svg",
+		name: "reviews.8.name",
+		excursion: "reviews.8.excursion",
+		text: "reviews.8.text",
+	},
+	{
+		img: "/users/user.svg",
+		name: "reviews.9.name",
+		excursion: "reviews.9.excursion",
+		text: "reviews.9.text",
 	},
 ];
 
@@ -959,7 +987,7 @@ export const excursions = [
 		route: "excursions.10.route",
 		desc: "excursions.10.description",
 		price: "excursions.10.price",
-		url: "https://t.me/Tatiana_Prokazova",
+		url: "https://tglink.ru/Tatiana_Prokazova",
 		details: [
 			{
 				text: "excursions.10.details.1",
@@ -1021,6 +1049,101 @@ export const excursions = [
 			},
 			{
 				text: "excursions.10.what_you_learn.10",
+			},
+		],
+	},
+	{
+		id: "10",
+		img: "/excursions/new_year.jpg",
+		name: "excursions.11.title",
+		age: "excursions.11.age",
+		time: "excursions.11.time",
+		route: "excursions.11.route",
+		desc: "excursions.11.description",
+		price: "excursions.11.price",
+		url: "https://tglink.ru/Tatiana_Prokazova",
+		details: [
+			{
+				text: "excursions.11.details.1",
+			},
+			{
+				text: "excursions.11.details.2",
+			},
+			{
+				text: "excursions.11.details.3",
+			},
+			{
+				text: "excursions.11.details.4",
+			},
+		],
+		what_to_expect: [
+			{
+				text: "excursions.11.what_to_expect.1",
+			},
+			{
+				text: "excursions.11.what_to_expect.2",
+			},
+			{
+				text: "excursions.11.what_to_expect.3",
+			},
+			{
+				text: "excursions.11.what_to_expect.4",
+			},
+			{
+				text: "excursions.11.what_to_expect.5",
+			},
+			{
+				text: "excursions.11.what_to_expect.6",
+			},
+			{
+				text: "excursions.11.what_to_expect.7",
+			},
+			{
+				text: "excursions.11.what_to_expect.8",
+			},
+			{
+				text: "excursions.11.what_to_expect.9",
+			},
+			{
+				text: "excursions.11.what_to_expect.10",
+			},
+		],
+		what_you_learn: [
+			{
+				text: "excursions.11.what_you_learn.1",
+			},
+			{
+				text: "excursions.11.what_you_learn.2",
+			},
+			{
+				text: "excursions.11.what_you_learn.3",
+			},
+			{
+				text: "excursions.11.what_you_learn.4",
+			},
+			{
+				text: "excursions.11.what_you_learn.5",
+			},
+			{
+				text: "excursions.11.what_you_learn.6",
+			},
+			{
+				text: "excursions.11.what_you_learn.7",
+			},
+			{
+				text: "excursions.11.what_you_learn.8",
+			},
+			{
+				text: "excursions.11.what_you_learn.9",
+			},
+			{
+				text: "excursions.11.what_you_learn.10",
+			},
+			{
+				text: "excursions.11.what_you_learn.11",
+			},
+			{
+				text: "excursions.11.what_you_learn.12",
 			},
 		],
 	},
