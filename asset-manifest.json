@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e109677f.css",
+    "main.js": "/static/js/main.48f55310.js",
+    "static/js/453.ff22e599.chunk.js": "/static/js/453.ff22e599.chunk.js",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/index.html",
+    "static/media/tripster.svg": "/static/media/tripster.ef2cf1af45381580a80332df15be59ee.svg",
+    "static/media/whatsapp.svg": "/static/media/whatsapp.cc36ecbe904f2f930d6f4d6a841060f5.svg",
+    "static/media/tg.svg": "/static/media/tg.8dc1cdcc49b146bbb41eb6947a8dde29.svg",
+    "static/media/phone.svg": "/static/media/phone.eaeda426b2e2039708be23a7ddd72f58.svg",
+    "main.e109677f.css.map": "/static/css/main.e109677f.css.map",
+    "main.48f55310.js.map": "/static/js/main.48f55310.js.map",
+    "453.ff22e599.chunk.js.map": "/static/js/453.ff22e599.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e109677f.css",
+    "static/js/main.48f55310.js"
+  ]
+}
