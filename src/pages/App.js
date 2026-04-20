@@ -1,7 +1,7 @@
 import { Box, useMediaQuery, useTheme } from "@mui/material";
 import CssBaseline from "@mui/material/CssBaseline";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
-import { BrowserRouter, Route, Routes } from "react-router";
+import { HashRouter, Route, Routes } from "react-router";
 import ProfileSection from "../components/ProfileSection";
 import Header from "../components/Header";
 import Excursion from "./Excursion";
@@ -57,12 +57,12 @@ function ResponsiveBox() {
 			}}
 		>
 			<Header />
-			<BrowserRouter>
+			<HashRouter>
 				<Routes>
 					<Route index element={<ProfileSection />} />
 					<Route path="/:excursionId" element={<Excursion />} />
 				</Routes>
-			</BrowserRouter>
+			</HashRouter>
 			<Footer />
 		</Box>
 	);
