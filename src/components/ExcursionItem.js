@@ -66,7 +66,7 @@ const ExcursionItem = ({ info }) => {
 				)}
 				</Box>
 				<Button
-					href={info.id}
+					href={'#/' + info.id}
 					variant="contained"
 					disableElevation
 					color="secondary"
