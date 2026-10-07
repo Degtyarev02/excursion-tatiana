@@ -37,6 +37,8 @@ const Excursion = () => {
 		width: "100%",
 		height: "100%",
 		objectFit: "cover",
+		maxHeight: "700px",
+		maxWidth: "1000px"
 	});
 
 	const Circle = styled("div")({
